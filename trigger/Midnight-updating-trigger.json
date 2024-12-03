@@ -1,0 +1,23 @@
+{
+	"name": "Midnight-updating-trigger",
+	"properties": {
+		"description": "This trigger will be triggering the pipeline every day at 0000hrs",
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2024-12-02T18:39:00",
+				"timeZone": "E. Africa Standard Time",
+				"schedule": {
+					"hours": [
+						0
+					]
+				}
+			}
+		}
+	}
+}
